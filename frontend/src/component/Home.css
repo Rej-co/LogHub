@@ -1,0 +1,90 @@
+.hub{
+    color: #00b4db;
+}
+  
+.nav-itemhome, .nav-itemlogin {
+    text-decoration: none;
+    color: white;
+
+}
+.collapse {
+    z-index: 1000;
+}
+
+.top-section {
+    margin-top: 150px;
+    margin-left: 20%;
+}
+
+.navbar li {
+    margin-right: 30px;
+}
+
+.background-img{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://res.cloudinary.com/dntv0bst8/image/upload/c_pad,ar_16:9/v1715740292/top_leertc.jpg');
+    background-size: cover;
+    height: 100vh;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
+ 
+.custom-card, .card-body {
+    border: none;
+}
+
+.container-info{
+    background-color: #020231;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+
+
+.container-bottom{
+    background-color: #020231;
+    color: white;
+    padding-top: 30px;
+}
+
+.container-bottom p{
+    padding-top: 10px;
+ }
+
+.bold-line{
+    border-top: 2px solid white;
+}
+
+.containercover {
+    margin-top: 10px;
+}
+
+.whycu {
+    text-align: center;
+}
+
+.whychooseus {
+    background-color: #e6e6fa;
+    padding-top: 50px;
+}
+
+.custom-card2 {
+    background-color: #e6e6fa;
+}
+
+.clientsay {
+    margin-left: 20px;
+}
+
+.navbar.navbar-expand-sm{
+    z-index: 1000;
+}
+
+.navbar-brand {
+    margin-right: 500px;
+}

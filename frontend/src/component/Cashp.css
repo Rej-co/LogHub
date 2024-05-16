@@ -1,0 +1,51 @@
+.cashpayment {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+
+.cashpayment-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+  }
+
+.cashpaymentpage {
+    background: white;
+    border-radius: 50px;
+    padding-top: 70px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    height: 50%;
+  }
+
+.btn-cash {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    width: 200px;
+  }
+  
+.btn-cash:hover {
+    background: grey;
+    color: black;
+  }
+  

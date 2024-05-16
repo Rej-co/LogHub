@@ -1,0 +1,22 @@
+.white{
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+}
+
+.navbar{
+    background-color: inherit;
+}
+
+.dark{
+    background-color: #020231;
+    color: white;
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+}
+
+.col-6 {
+    max-width: 50%;
+    text-align: center; 
+}

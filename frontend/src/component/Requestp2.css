@@ -1,0 +1,89 @@
+.outer-circle {
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #00B4D8;
+    position: relative;
+}
+
+.inner-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.reqcircle2 {
+    color: #00B4D8;
+    
+}
+
+.req2cont{
+    margin-left: 5%;
+}
+
+.pin {
+    color: #0077b6;
+}
+
+
+.d1loc, .pickupreq2 {
+    display: flex;
+    margin-top: 25px;
+    
+}
+
+.pup, .d1, .pin, .reqcircle2 {
+    margin-top: 10px;
+}
+
+.pin, .reqcircle2 {
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.req2cont {
+    margin-bottom: 100px;
+}
+
+.Paymentmt, .req2cont {
+    margin-top: 30px;
+}
+
+.pm {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.cardpayment, .banktransfer, .cashonpickup {
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.paymentfrm {
+    margin-bottom: 30px;
+}
+
+.ccicon, .bticon, .copicon {
+    display: flex;
+    font-size: 25px;
+    position: relative;
+    top: 22px;
+    left: 20px;
+}
+
+.price {
+    color: #0077b6;
+}
